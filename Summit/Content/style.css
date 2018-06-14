@@ -1129,3 +1129,6 @@ input.star-1:checked ~ label.star:before {
 .speaker_grid h2{
     font-size:25px !important;
 }
+form .error {
+    color: #ff0000;
+}

@@ -1,5 +1,23 @@
 ﻿$(document).ready(function ($) {
-    var dir,dir1,dir2,dir3;
+    var dir, dir1, dir2, dir3;
+    $("#contactForm").validate({
+        rules: {
+            sessionName: {
+                required: true
+            },
+            Rating: {
+                required: true
+            },
+            feedback: {
+                required: true
+            }
+        },
+        errorPlacement: function (error, element) {
+        },
+        submitHandler: function (form) {
+            submitFeedback();
+        }
+    });
     var url = window.location.pathname;
     url = url.split('/');
     var mainurl = window.location.host;
@@ -8,23 +26,23 @@
     var fileextension = ".jpg";
     if (region === "India") {
         if (program.toLowerCase() === "itdp") {
-            dir1 = "/img/grads/india/itdp/group1";
+            dir1 = "/img/grads/india/itdp/group01";
             dir2 = "/img/grads/india/itdp/group2";
             dir3 = "/img/grads/india/itdp/group3";
         }
-        else if (program.toLowerCase() === "itlp" ) {
-            dir1 = "/img/grads/india/itlp/group1";
-            dir2 = "/img/grads/india/itlp/group2";
-            dir3 = "/img/grads/india/itlp/group3";
+        else if (program.toLowerCase() === "itlp" || program.toLowerCase() === "manager") {
+            dir1 = "/img/grads/india/itlp_india/group1";
+            dir2 = "/img/grads/india/itlp_india/group2";
+            //dir3 = "/img/grads/india/itlp/group3";
         }
     }
     else if (region === "US") {
         if (program.toLowerCase() === "itdp") {
-            dir1 = "/img/grads/austin/itdp/group1";
+            dir1 = "/img/grads/austin/itdp/group01";
             dir2 = "/img/grads/austin/itdp/group2";
             dir3 = "/img/grads/austin/itdp/group3";
         }
-        else if (program.toLowerCase() === "itlp (fy16-fy18)" || program.toLowerCase() === "leader and itlp fy19") {
+        else if (program.toLowerCase() === "itlp (fy16-fy18)" || program.toLowerCase() === "leader (+ itlp fy19)") {
             dir1 = "/img/grads/austin/itlp/group1";
             dir2 = "/img/grads/austin/itlp/group2";
             dir3 = "/img/grads/austin/itlp/group3";
@@ -34,9 +52,9 @@
         if (program.toLowerCase() === "itdp") {
             dir1 = "/img/grads/malaysia/itdp/group1";
             dir2 = "/img/grads/malaysia/itdp/group2";
-            dir3 = "/img/grads/malaysia/itdp/group3";
+            //dir3 = "/img/grads/malaysia/itdp/group3";
         }
-        else if (program.toLowerCase() === "itlp") {
+        else if (program.toLowerCase() === "itlp" || program.toLowerCase() === "manager") {
             dir1 = "/img/grads/malaysia/itlp/group1";
             dir2 = "/img/grads/malaysia/itlp/group2";
             dir3 = "/img/grads/malaysia/itlp/group3";
@@ -52,43 +70,13 @@
         $Align: 0
     };
     var MAX_WIDTH = 1000;
+
     $.ajax({
         url: "http://" + mainurl + dir1,
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
-                if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(".group1slides").append("<div><img data-u='image' src='" + val + "?123'></div>");
-                }
-            });
-            if ($('#section-graduationprofiles').length > 0) {
-                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-                function ScaleSlider() {
-                    var containerElement = jssor_1_slider.$Elmt.parentNode;
-                    var containerWidth = containerElement.clientWidth;
-
-                    if (containerWidth) {
-
-                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                        jssor_1_slider.$ScaleWidth(expectedWidth);
-                    }
-                    else {
-                        window.setTimeout(ScaleSlider, 30);
-                    }
-                }
-                ScaleSlider();
-            }
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-      //      $(window).bind("orientationchange", ScaleSlider);
-        }
-    });
-    $.ajax({
-        url: "http://" + mainurl + dir2,
-        success: function (data) {
-            $(data).find("a").attr("href", function (i, val) {
-                if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(".group2slides").append("<div><img data-u='image' src='" + val + "?123'></div>");
+                if (val.match(/\.(jpe?g|png|gif|JPE?G)$/)) {
+                    $(".group2slides").append("<div><img data-u='image' src='" + val + "'></div>");
                 }
             });
             if ($('#section-graduationprofiles').length > 0) {
@@ -109,17 +97,23 @@
             }
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
-        //    $(window).bind("orientationchange", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
         }
     });
     $.ajax({
-        url: "http://" + mainurl + dir3,
+        url: "http://" + mainurl + dir2,
         success: function (data) {
+            var count = 0;
             $(data).find("a").attr("href", function (i, val) {
-                if (val.match(/\.(jpe?g|png|gif)$/)) {
-                    $(".group3slides").append("<div><img data-u='image' src='" + val + "?123'></div>");
+                if (val.match(/\.(jpe?g|png|gif|JPE?G)$/)) {
+                    count += 1;
+                    $(".group3slides").append("<div><img data-u='image' src='" + val + "'></div>");
                 }
             });
+            if (count == 0)
+                $("#jssor_3").hide();
+            else
+                $("#jssor_3").show();
             if ($('#section-graduationprofiles').length > 0) {
                 var jssor_3_slider = new $JssorSlider$("jssor_3", jssor_1_options);
                 function ScaleSlider() {
@@ -137,11 +131,52 @@
             }
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
-         //   $(window).bind("orientationchange", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            if (jqXHR.status == 404)
+                $("#jssor_3").hide();
         }
     });
-    
-
+    if (dir3 != "") {
+        $("#jssor_4").show();
+        $.ajax({
+            url: "http://" + mainurl + dir3,
+            success: function (data) {
+                var count = 0;
+                $(data).find("a").attr("href", function (i, val) {
+                    if (val.match(/\.(jpe?g|png|gif|JPE?G)$/)) {
+                        count += 1;
+                        $(".group4slides").append("<div><img data-u='image' src='" + val + "'></div>");
+                    }
+                });
+                if ($('#section-graduationprofiles').length > 0) {
+                    var jssor_3_slider = new $JssorSlider$("jssor_4", jssor_1_options);
+                    function ScaleSlider() {
+                        var containerElement = jssor_3_slider.$Elmt.parentNode;
+                        var containerWidth = containerElement.clientWidth;
+                        if (containerWidth) {
+                            var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+                            jssor_3_slider.$ScaleWidth(expectedWidth);
+                        }
+                        else {
+                            window.setTimeout(ScaleSlider, 30);
+                        }
+                    }
+                    ScaleSlider();
+                }
+                $(window).bind("load", ScaleSlider);
+                $(window).bind("resize", ScaleSlider);
+                $(window).bind("orientationchange", ScaleSlider);
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                if (jqXHR.status == 404)
+                    $("#jssor_4").hide();
+            }
+        });
+    }
+    else
+        $("#jssor_4").hide();
     $('.region,.program').hover(function () {
 
         $(this).addClass("hover-region");
@@ -170,12 +205,6 @@
 
         }
     });
-//    $('a').click(function (e) {
-//        // Special stuff to do when this link is clicked...
-
-//        // Cancel the default action
-//        e.preventDefault();
-//    });
     function getBaseUrl(address) {
 
         var path = "";
@@ -203,12 +232,12 @@
     $('.btn-file :file').on('fileselect', function (event, label) {
         $("#imageText").val(label);
     });
-    
+
     $("#imgInp").change(function () {
         store(this);
     });
 });
-function store(input) {
+   function store(input) {
     inputFile = input;
 }
 function readURL() {
@@ -220,17 +249,17 @@ function readURL() {
     if (files.length > 0) {
         data.append("UploadedImage", files[0]);
     }
-
+    $("#errorMsg").show();
     $.ajax({
         contentType: "application/json; charset=utf-8",
-        url: "http://annualsummit.aus.amer.dell.com/SummitAPI/" + 'api/image',
+        url: "http://summitrecallapi.azurewebsites.net/api/image/",
         type: 'POST',
         contentType: false,
         processData: false,
         data: data,
         success: function (message) {
             setTimeout(fade_out, 10000);
-            $("#errorMsg").html("Your image uploaded successfully");
+            $("#errorMsg").html(message);
         },
         fail: function (message) {
             setTimeout(fade_out, 10000);
@@ -255,7 +284,7 @@ function readURL() {
             } else {
                 msg = 'Uncaught Error.\n' + jqXHR.responseText;
             }
-            $("#errorMsg1").html(msg);
+            $("#errorMsg").html(msg);
         }
     });
 }
@@ -288,7 +317,7 @@ function register() {
     }
     $.ajax({
         contentType: "application/json; charset=utf-8",
-        url: "http://annualsummit.aus.amer.dell.com/SummitAPI/" + 'api/users',
+        url: "https://dit.apidp.dell.com/SummitAPI/" + 'users' + '?apikey=9b1b8b67-320a-4b84-876e-3f5d38ebf330',
         type: 'POST',
         data: JSON.stringify(data),
         dataType: 'json/text',
@@ -322,6 +351,7 @@ function register() {
     });
 }
 function submitFeedback() {
+
     var sessionName = $("#sessionName").val();
     var feedback = $("#feedback").val();
     var rating = $("input[name=star]:checked").val();
@@ -333,15 +363,15 @@ function submitFeedback() {
     }
     $.ajax({
         contentType: "application/json; charset=utf-8",
-        url: "http://annualsummit.aus.amer.dell.com/SummitAPI/" + 'api/feedback',
+        url: "http://summitrecallapi.azurewebsites.net/api/values/",
         type: 'POST',
         data: JSON.stringify(data),
         dataType: 'json/text',
         success: function (message) {
-            $("#errorMsg").html(message);
+            $("#errorMsg1").html(message);
         },
         fail: function (message) {
-            $("#errorMsg").html("Error in updating: " + message);
+            $("#errorMsg1").html("Error in updating: " + message);
         },
         error: function (jqXHR, exception) {
             if (jqXHR.status === 200) {

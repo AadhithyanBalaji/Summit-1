@@ -163,156 +163,116 @@
     <Content Include="Global.asax" />
     <Content Include="img\DTW-2018-Main-img no text.jpg" />
     <Content Include="img\google-map-marker.png" />
-    <Content Include="img\grads\austin\itdp\group1\1 - Morgan O_Connor.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group1\3 - Angelica Velez.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group1\31218_Grace Chen_resize1 - msgracec02.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group1\Daniel James headshot - Daniel James.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group2\DellHeadshot - Louis Andres.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group2\IMG_2140 - Jmae Ha.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group2\Kaily_Harris_sml - Kailey Webster.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group2\latelate %285%29 - gemma Hickey.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group3\Odike Headshot - Odike Eze-Echesi.JPG">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group3\Profile Photo - Jay Yi.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group3\ProfilePicture - Austin Mathias.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itdp\group3\ryanmcclure - Ryan McClure.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\Allison_Boyd_2 - Allison Boyd.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\Brian headshot Corp_ed - Brian Bridges.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\headshot - Tiffani McRee.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\IMG_0022 - Venkatachalam Balakrishnan.JPG">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\Nagaraj - Nagaraj Desai.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\profilepic - swapna digumarti.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\Raghunandan_Sharma - raghu sharma.JPG">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\Vijaya_Hyd_ITLP - Vijaya Lakshmi.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group1\vishal - Vishal Gandhi.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\5ML_4025-Edit - Marcio Lena.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\Emer - Emer O_Reilly.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\headshot - Krishna Devadas Murali.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\IMG_2803 - Ranjani Siva.JPG">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\IMG_8058 - Akta G T.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\IMG_8069 - Sita Chadalapaka.JPG">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\Lu_Furini %281%29 - Luciane Furini.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group2\Photo1 - Srikanth Ramaswamy.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\headshot2 - Pranay Jaiswal.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\Josh_Lightcap2 - Josh Lightcap.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\marcos-nahr - Marcos Nähr.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\me - Chandlor Lyles.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\austin\itlp\group3\vaishali - Vaishali Chaudhry.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="img\grads\india\itdp\group1\img-team-1.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-2.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-3.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-4.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-5.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-6.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-7.jpg" />
-    <Content Include="img\grads\india\itdp\group1\img-team-8.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-1.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-2.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-3.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-4.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-5.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-6.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-7.jpg" />
-    <Content Include="img\grads\india\itdp\group2\img-team-8.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-1.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-2.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-3.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-4.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-5.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-6.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-7.jpg" />
-    <Content Include="img\grads\india\itdp\group3\img-team-8.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-1.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-2.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-3.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-4.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-5.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-6.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-7.jpg" />
-    <Content Include="img\grads\india\itlp\group1\img-team-8.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-1.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-2.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-3.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-4.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-5.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-6.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-7.jpg" />
-    <Content Include="img\grads\india\itlp\group2\img-team-8.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-1.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-2.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-3.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-4.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-5.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-6.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-7.jpg" />
-    <Content Include="img\grads\india\itlp\group3\img-team-8.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-1.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-2.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-3.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-4.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-5.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-6.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-7.jpg" />
+    <Content Include="img\grads\austin\itdp\group01\img-team-8.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\10374494_10155789707275596_2653250661507753225_n - Raiyan Ahmed.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\img-team-1.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\img-team-2.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\img-team-3.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\img-team-4.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\Joanne - Joanne Bruno.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\pic - Michael Geaney.jpg" />
+    <Content Include="img\grads\austin\itdp\group2\picture - Kay Harris.png" />
+    <Content Include="img\grads\austin\itdp\group2\Profile_Picture - Daanish Virani.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\headshot - Tiffani McRee.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\img-team-2.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\img-team-3.JPG" />
+    <Content Include="img\grads\austin\itlp\group1\marcos-nahr - Marcos Nähr.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\me - Chandlor Lyles.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\Nagaraj - Nagaraj Desai.png" />
+    <Content Include="img\grads\austin\itlp\group1\profilepic - swapna digumarti.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\Raghunandan_Sharma - raghu sharma.JPG" />
+    <Content Include="img\grads\austin\itlp\group1\vaishali - Vaishali Chaudhry.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\Vijaya_Hyd_ITLP - Vijaya Lakshmi.jpg" />
+    <Content Include="img\grads\austin\itlp\group1\vishal - Vishal Gandhi.png" />
+    <Content Include="img\grads\austin\itlp\group2\5ML_4025-Edit - Marcio Lena.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\Allison_Boyd_2 - Allison Boyd.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\Emer - Emer O_Reilly.png" />
+    <Content Include="img\grads\austin\itlp\group2\headshot - Krishna Devadas Murali.png" />
+    <Content Include="img\grads\austin\itlp\group2\headshot2 - Pranay Jaiswal.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\IMG_2803 - Ranjani Siva.JPG" />
+    <Content Include="img\grads\austin\itlp\group2\IMG_8058 - Akta G T.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\IMG_8069 - Sita Chadalapaka.JPG" />
+    <Content Include="img\grads\austin\itlp\group2\Josh_Lightcap2 - Josh Lightcap.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\Lu_Furini %281%29 - Luciane Furini.jpg" />
+    <Content Include="img\grads\austin\itlp\group2\Photo1 - Srikanth Ramaswamy.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Dad - Kotamraju Satish.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\hilda for outlook - Hilda McCormack.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Leah_Capture2 - Leah Thompson.JPG" />
+    <Content Include="img\grads\austin\itlp\group3\Mathias - Vera Mathias.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Nick_Murrell-hires - Nick Murrell.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Pradeep Pic - Pradeep Mishra.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\rathinavelu800612134-018_headshot - Mani P.R..jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Small Pic %28A%29 - April White.JPG" />
+    <Content Include="img\grads\austin\itlp\group3\Srini Rao - srinivas battula.jpg" />
+    <Content Include="img\grads\austin\itlp\group3\Sudheer Kota Headshot - Sudheer Kota.JPG" />
+    <Content Include="img\grads\india\itdp\group01\20180525141347_IMG_0098 %282%29 - Sahana nayak.jpg" />
+    <Content Include="img\grads\india\itdp\group01\IMG20170206104941.jpg" />
+    <Content Include="img\grads\india\itdp\group01\IMG_0725 - Aayush Bhola.jpg" />
+    <Content Include="img\grads\india\itdp\group01\IMG_20160606_192540_1 - Manjari Singh.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture1.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture2.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture27.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture3.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture5.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture5.png" />
+    <Content Include="img\grads\india\itdp\group01\Picture7.jpg" />
+    <Content Include="img\grads\india\itdp\group01\Picture8.png" />
+    <Content Include="img\grads\india\itdp\group2\ayushi - Ayushi Purohit.jpeg" />
+    <Content Include="img\grads\india\itdp\group2\Picture10.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture11.png" />
+    <Content Include="img\grads\india\itdp\group2\Picture12.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture13.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture14.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture15.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture16.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture18.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture25.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture26.jpg" />
+    <Content Include="img\grads\india\itdp\group2\Picture9.jpg" />
+    <Content Include="img\grads\india\itdp\group2\rohan_head_itdp_pic - ROHAN SHARMA.png" />
+    <Content Include="img\grads\india\itdp\group2\roma_pic - Roma Bharti %281%29.jpg" />
+    <Content Include="img\grads\india\itdp\group2\sweety1 - subhadarsini prusty.jpg" />
+    <Content Include="img\grads\india\itdp\group3\22802401_125629024786912_299439721103228928_n.jpg" />
+    <Content Include="img\grads\india\itdp\group3\headshot - Andrea Coldwell.JPG" />
+    <Content Include="img\grads\india\itdp\group3\headshot - Michael Rea.jpg" />
+    <Content Include="img\grads\india\itdp\group3\itdp - sanjana dc.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture17.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture19.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture20.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture21.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture22.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture22.png" />
+    <Content Include="img\grads\india\itdp\group3\Picture24.jpg" />
+    <Content Include="img\grads\india\itdp\group3\Picture28.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Ashok HV.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Dad - Kotamraju Satish.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Govardhani Jasti.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\K V Prasad.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Nagaraj - Nagaraj Desai.png" />
+    <Content Include="img\grads\india\itlp_india\group1\Nithya P.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Pradeep Pic - Pradeep Mishra.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\profilepic - swapna digumarti.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Raghunandan_Sharma - raghu sharma.JPG" />
+    <Content Include="img\grads\india\itlp_india\group1\rathinavelu800612134-018_headshot - Mani P.R..jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\vaishali - Vaishali Chaudhry.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Vijaya P.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\Vijaya_Hyd_ITLP - Vijaya Lakshmi.jpg" />
+    <Content Include="img\grads\india\itlp_india\group1\vishal - Vishal Gandhi.png" />
+    <Content Include="img\grads\india\itlp_india\group2\headshot - Krishna Devadas Murali.png" />
+    <Content Include="img\grads\india\itlp_india\group2\headshot2 - Pranay Jaiswal.jpg" />
+    <Content Include="img\grads\india\itlp_india\group2\IMG_2803 - Ranjani Siva.JPG" />
+    <Content Include="img\grads\india\itlp_india\group2\IMG_8058 - Akta G T.jpg" />
+    <Content Include="img\grads\india\itlp_india\group2\IMG_8069 - Sita Chadalapaka.JPG" />
+    <Content Include="img\grads\india\itlp_india\group2\Photo1 - Srikanth Ramaswamy.jpg" />
+    <Content Include="img\grads\india\itlp_india\group2\Srini Rao - srinivas battula.jpg" />
+    <Content Include="img\grads\india\itlp_india\group2\Sudheer Kota Headshot - Sudheer Kota.JPG" />
     <Content Include="img\grads\malaysia\itdp\group1\img-team-1.jpg" />
     <Content Include="img\grads\malaysia\itdp\group1\img-team-2.jpg" />
     <Content Include="img\grads\malaysia\itdp\group1\img-team-3.jpg" />
@@ -361,19 +321,7 @@
     <Content Include="img\grads\malaysia\itlp\group3\img-team-6.jpg" />
     <Content Include="img\grads\malaysia\itlp\group3\img-team-7.jpg" />
     <Content Include="img\grads\malaysia\itlp\group3\img-team-8.jpg" />
-    <Content Include="img\img-jumbotron-bg-1.jpg" />
     <Content Include="img\img-jumbotron-bg.jpg" />
-    <Content Include="img\img-team-1.jpg" />
-    <Content Include="img\img-team-2.jpg" />
-    <Content Include="img\img-team-3.jpg" />
-    <Content Include="img\img-team-4.jpg" />
-    <Content Include="img\img-team-5.jpg" />
-    <Content Include="img\img-team-6.jpg" />
-    <Content Include="img\img-team-7.jpg" />
-    <Content Include="img\img-team-8.jpg" />
-    <Content Include="img\img-testimonial-1.jpg" />
-    <Content Include="img\img-testimonial-2.jpg" />
-    <Content Include="img\img-testimonial-3.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\preloader.gif" />
     <Content Include="img\preloader.svg" />
@@ -385,29 +333,59 @@
     <Content Include="img\speakers\austin\Dan Jensen photo.jpg" />
     <Content Include="img\speakers\austin\David Jacobson.JPG" />
     <Content Include="img\speakers\austin\Dell_Exec_Portraits_jenniferfelch00777.jpg" />
+    <Content Include="img\speakers\austin\FC00F2C9-90C6-4D74-961B-384818D645E3.png" />
     <Content Include="img\speakers\austin\Garry Wiseman.png" />
     <Content Include="img\speakers\austin\James Higginbotham Headshot.jpg" />
+    <Content Include="img\speakers\austin\jennifer 2.jpg" />
     <Content Include="img\speakers\austin\Jim Cody Photo.jpg" />
     <Content Include="img\speakers\austin\Judy Nelson.jpg" />
     <Content Include="img\speakers\austin\Kara Miller.jpg" />
     <Content Include="img\speakers\austin\Kavitha-Headshot Nov 2017.JPG" />
     <Content Include="img\speakers\austin\Kelli Neely.jpg" />
     <Content Include="img\speakers\austin\KellieCrantz_12_highres.jpg" />
-    <Content Include="img\speakers\austin\Lawton_Steve-biz casual headshot.jpg" />
     <Content Include="img\speakers\austin\Louise Worley.JPG" />
     <Content Include="img\speakers\austin\Marie Gunning.jpg" />
     <Content Include="img\speakers\austin\Mel Parker.jpg" />
     <Content Include="img\speakers\austin\Melissa Roy.jpg" />
     <Content Include="img\speakers\austin\Michael Scully.png" />
+    <Content Include="img\speakers\austin\pat_quigley_small.bmp" />
     <Content Include="img\speakers\austin\Ray Sheen photo.jpg" />
     <Content Include="img\speakers\austin\Sara-Canaday-headshot3-199x300.jpg" />
     <Content Include="img\speakers\austin\Scott_Pittman_color.jpg" />
+    <Content Include="img\speakers\austin\Stephen_Crawley.jpg" />
     <Content Include="img\speakers\austin\Steve Gartrell.JPG" />
     <Content Include="img\speakers\austin\Steve Lawton.jpg" />
     <Content Include="img\speakers\austin\Suzie DeBusk headshot.jpg" />
     <Content Include="img\speakers\austin\Tom Poloskey.jpg" />
     <Content Include="img\speakers\austin\Ujj-102.jpg" />
     <Content Include="img\speakers\austin\valerie Griffin.JPG" />
+    <Content Include="img\speakers\india\10291.jpg" />
+    <Content Include="img\speakers\india\372514.jpg" />
+    <Content Include="img\speakers\india\3GPHz8Ex_400x400.jpg" />
+    <Content Include="img\speakers\india\677560.jpg" />
+    <Content Include="img\speakers\india\Ajaz.jpg" />
+    <Content Include="img\speakers\india\Ashish Vidyarthi.jpg" />
+    <Content Include="img\speakers\india\chetna.jpg" />
+    <Content Include="img\speakers\india\deb.jpg" />
+    <Content Include="img\speakers\india\Harshita.jpg" />
+    <Content Include="img\speakers\india\Hemal.jpg" />
+    <Content Include="img\speakers\india\internal1.jpg" />
+    <Content Include="img\speakers\india\James Higginbotham Headshot.jpg" />
+    <Content Include="img\speakers\india\Job Varghese.png" />
+    <Content Include="img\speakers\india\Kellie.jpg" />
+    <Content Include="img\speakers\india\Linda.jpg" />
+    <Content Include="img\speakers\india\Mariely.jpg" />
+    <Content Include="img\speakers\india\Raja.jpg" />
+    <Content Include="img\speakers\india\RSS-Visa.jpg" />
+    <Content Include="img\speakers\india\Sanjay Jha.png" />
+    <Content Include="img\speakers\india\Sheenam.png" />
+    <Content Include="img\speakers\india\Sudhir.jpg" />
+    <Content Include="img\speakers\india\Sujai.jpg" />
+    <Content Include="img\speakers\india\Sujatha.jpg" />
+    <Content Include="img\speakers\india\Sukant.jpg" />
+    <Content Include="img\speakers\india\Thru.jpg" />
+    <Content Include="img\speakers\india\Varun.jpg" />
+    <Content Include="img\weather-india.JPG" />
     <Content Include="img\weather.png" />
     <Content Include="Scripts\base.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -422,14 +400,15 @@
     <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="img\.DS_Store" />
     <Content Include="img\Welcome to Austin.pdf" />
+    <Content Include="img\Welcome to Bengaluru.pdf" />
     <None Include="Properties\PublishProfiles\AnnualSummit - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\AnnualSummit2018 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jssor.slider.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
@@ -453,6 +432,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\grads\austin\itdp\group3\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
